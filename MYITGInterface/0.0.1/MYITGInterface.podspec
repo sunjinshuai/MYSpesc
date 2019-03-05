@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
   
   ### Subspecs
   s.subspec 'Core' do |core|
-      core.source_files = 'MYITGInterface/Classes/MYITGInterface.h'
+      core.source_files = 'MYITGInterface/Classes/Core/MYITGInterface.h'
       core.dependency 'MYITGInterface/Base'
   end
   
