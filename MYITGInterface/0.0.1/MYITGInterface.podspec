@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/s_mike@163.com/MYITGInterface'
+  s.homepage         = 'https://github.com/sunjinshuai/MYITGInterface.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 's_mike@163.com' => 's_mike@163.com' }
-  s.source           = { :git => 'https://github.com/s_mike@163.com/MYITGInterface.git', :tag => s.version.to_s }
+  s.author           = { 'sunjinshuai' => 's_mike@163.com' }
+  s.source           = { :git => 'https://github.com/sunjinshuai/MYITGInterface.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.frameworks = 'UIKit', 'Foundation'
   s.static_framework = true
